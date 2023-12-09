@@ -1,0 +1,99 @@
+*{
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.styleform{
+    display: flex;
+    justify-content: space-between;
+    width: auto;
+    height: 500px;
+    margin: 50px;
+}
+
+.firstForm{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    left: 130px;
+    width: 30%;
+    height: 100%;
+    margin: auto;
+    background-image: url("assets/Frame\ 19.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.firstForm button{
+    background-color: white;
+    line-height: 30px;
+    margin: 20px;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.firstForm button:hover{
+    background-color: #ebe5e5;
+}
+
+.firstForm button img{
+    width: 28px;
+    position: absolute;
+    left: 80px;
+    
+}
+
+.secondForm{
+    display: inline-block;
+    position: relative;
+    right: 130px;
+    width: 30%;
+    height: 100%;
+    margin: auto;    
+    background-color: #ebe5e5;
+}
+
+.secondForm label{
+    display: block;
+    margin: 20px;
+    margin-top: 30px;
+}
+.secondForm h2{
+    text-align: center;
+    margin-top: 60px;
+}
+
+.secondForm p{
+    text-align: center;
+}
+input{
+  width: 90%;
+  min-height: 25px;
+  height: 30%;
+}
+
+.inline{
+    display: inline;
+    margin: 5px;
+    vertical-align: middle;
+    width: unset;
+}
+
+.button{
+    text-align: center;
+    margin-top: 20px;
+}
+#button{
+    padding: 10px;
+    width: 70%;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+    color: white;
+    background-color: #03A9F4;
+}
+
+#button:hover{
+    background-color: #057db4;
+}
